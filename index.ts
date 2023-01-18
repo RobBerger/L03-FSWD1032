@@ -5,4 +5,4 @@ function fullName (firstName: string, middleName: string, lastName = "Rainman")
 
 console.log(fullName ("Bob", "Hawk", "Nelson")); //correct function call 
 console.log(fullName ("Bob", "Hawk")); // still works, but will now return "The full name is Bob Hawk Rainman"
-console.log(fullName ("Bob", "Hawk", "Nelson", "McGraw")); // too many parameters
+//console.log(fullName ("Bob", "Hawk", "Nelson", "McGraw")); // too many parameters
